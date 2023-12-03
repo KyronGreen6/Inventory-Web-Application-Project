@@ -1,0 +1,58 @@
+body {
+    font-family: sans-serif;
+    background-color: palevioletred;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: black;
+    color: azure;
+    text-align: center;
+    padding: 2px;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 1fr;
+    padding: 15px;
+    grid-gap: 5px;
+
+}
+
+.container-2 {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 5px;
+    padding: 10px;
+}
+
+.item-card {
+    width: 25%;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 4px;
+    text-align: center;
+    display: inline-block;
+    background-color: azure;
+}
+
+.item-card img {
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+
+.item-card strong {
+    font-size: large;
+}
+
+.item-card p {
+font-size: large;
+}
+
+footer {
+    background-color: black;
+    color: azure;
+    padding: 20px;
+}
